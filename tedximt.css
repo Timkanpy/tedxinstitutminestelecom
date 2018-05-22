@@ -1,0 +1,550 @@
+/*GENERAL*/
+
+	@import url('https://fonts.googleapis.com/css?family=Nunito:300,400|Quicksand');
+
+	body{
+		font-family: 'Quicksand', sans-serif;
+		font-size:20px;
+	}
+
+	.container-fluid{
+	 	margin:0;
+	 	padding:0;
+	 }
+
+	 .row{
+	 	margin-left:auto;
+	 	margin-right:auto;
+	 }
+
+	 /*NAVBAR*/
+
+	#tedxlogo{
+		margin-left: 10px;
+        width:300px;
+	}
+
+    .navbar-nav{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    #billetterieBouton{
+        font-weight: bold;
+        color:rgb(255,42,3);
+        border: solid 1px rgb(255,42,3);
+        border-radius: 5px;
+        margin-left: 30px;
+    }
+
+	/*HEADER*/
+
+	.header{
+		background:black;
+		background-size: cover;
+		position: absolute;
+	 	width: 100%;
+	 	height: 100%;
+	 	top: 0;
+	 	right: 0;
+	 	z-index: 10;
+	 	background-color: rgb(0, 0, 0);
+	 	background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	 #headertext{
+	 	position: absolute;
+	 	width: 100%;
+	 	height: 100%;
+	 	top: 30%;
+	 	right: 0;
+	 	z-index: 10;
+	 }
+
+	.title{
+		text-align: center;
+		color:white;
+		font-size: 50px;
+	}
+
+	.subtitle{
+		text-align: center;
+		font-size:30px;
+		color:white;
+		margin-bottom: 40px;
+	}
+
+	.bouton{
+		text-align: center;
+		color:white;
+	}
+
+	#timer{
+		text-align: center;
+		color:white;
+        font-size:300%;
+        margin-bottom:-10px;
+	}
+
+	#countdown{
+		text-align: center;
+		color:white;
+        font-size:130%;
+        margin-top:-30px;
+	}
+
+    .addressEvent{
+		text-align: center;
+		color:white;
+        margin-top:-15px;
+    }
+
+	.btn:hover{
+		background-color:rgb(255,42,3);
+ 		color:white;
+	}
+
+	 .carousel-block {
+	 	position: relative;
+	 	margin-top:75px;
+	 }
+
+
+	/*TITRES SECTIONS */
+	
+	.bandeaux-rouges{
+		height: 120px;
+		background:rgb(255,42,3);
+		line-height: 120px;
+		width:100%;
+		background-size: cover;
+		z-index:20;
+        font-size:40px;
+	}
+
+	/* SECTION EVENEMENT & SECTION SPEAKERS*/
+
+    #speakers{
+		text-align: center;
+		color:white;
+	}
+
+    #aboutTheme{
+		text-align: center;
+		color:white;
+	}
+
+	.blocevenement{
+		text-align: center;
+		color:white;
+		padding: 5%;
+		background-image: url(../img/fondevent.jpg);
+		background-size: cover;
+	}
+
+	.blocspeakers{
+		text-align: center;
+		color:white;
+		padding: 5%;
+		background-image: url(../img/fondevent.jpg);
+		background-size: cover;
+	}
+
+    .theme{
+        margin-left:10%;
+        margin-right:10%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+	.card{
+		margin: 5%;
+		color:black;
+	}
+ 
+	.card-deck{
+		padding: 2%;
+	}
+
+	#googlemaps{
+		padding-left:5%;
+		padding-right:5%;
+	}
+
+	/*SECTION TEAM */
+
+	#theteam{
+        margin-top:75px;
+		text-align: center;
+		vertical-align: middle;
+		color:white;
+	}
+
+	.minititle{
+		margin-bottom: 30px;
+		margin-top: 10px;
+		font-weight: bold;
+        font-size:30px;
+        text-align: center;
+	}
+
+	.bloclequipe{
+		background-size: cover;
+		padding:5%;
+        margin-left:auto;
+	 	margin-right:auto;
+	}
+
+	.names{
+		text-align: center;
+		color:black;
+        font-weight: bold;
+        margin-top: 30px;
+		margin-bottom: 10px;
+
+	}
+	.posts{
+		text-align: center;
+		color:black;
+	}
+
+	.people-img{
+		text-align: center;
+	}
+
+	.col-sm{
+		text-align: center;
+        border: solid 2px rgb(255,42,3);
+        margin-right:10px;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding-bottom:20px;
+        border-radius: 5px;
+	}
+
+	* {
+		 -moz-box-sizing: border-box;
+		 -webkit-box-sizing: border-box;
+		 box-sizing: border-box;
+		 margin: 0;
+		 padding: 0;
+	}
+
+	.people-img {
+		position: relative;
+		border: 0px;
+		margin: 2%;
+		overflow: hidden;
+	}
+
+	.people-img img {
+		padding:7%;
+		max-width: 100%;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.people-img:hover img {
+		-moz-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	/*SECTION PARTNERS*/
+
+	.titreSection{
+		margin-top:75px;
+        text-align: center;
+		vertical-align: middle;
+		color:white;
+	}
+
+	.partners-img {
+		position: relative;
+		border: 0px;
+		margin: 2%;
+		overflow: hidden;
+	}
+
+	.partners-img img {
+		padding:7%;
+		max-width: 100%;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.partners-img:hover img {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	#blocpartners{
+		background-color:white;
+		background-size:cover;
+		padding: 5%;
+	}
+
+	.partnerslogos{
+		text-align: center;
+	}
+
+    .devenirPartenaire{
+		text-align: center;
+        margin-bottom:50px;
+    }
+
+    .lienExterne{
+        color:rgb(255,42,3);
+    }
+
+
+    /* SECTIONS PRÉSENTATION TEDX & IMT */
+
+    .aboutText{
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:50px;
+        margin-bottom:75px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .titleBold{
+        font-weight: bold;
+    }
+
+    #logoimtAbout{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .listeAbout{
+        margin-left: 50px;
+    }
+
+
+	/*SECTION ABOUT */
+
+	#about{
+		text-align: center;
+		vertical-align: middle;
+		color:white;
+	}
+
+    .blocabout{
+	 	position: relative;
+		text-align: center;
+		color:white;
+		background-image:url(../img/abouttedx.jpg);
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		padding:5%;
+    }
+
+     .aboutTEDx{
+        margin-left:15%;
+        margin-right:15%;
+        text-align: justify;
+        text-justify: inter-word;
+	}
+
+		#boutonlearn{
+		text-decoration: none;
+		color:white;
+        font-size:20px;
+	}
+
+	/* FOOTER */
+
+	.copyright{
+		font-size: 12px;
+		color:white;
+		position:absolute;
+		bottom:0%;
+		right:2%;
+	}
+
+	footer{
+		height: 50px;
+		background-color:black;
+		position: relative;
+	}
+
+
+	/* RESPONSIVE */
+
+	/* Extra small devices (portrait phones, less than 576px) */
+	@media (max-width: 575px) {
+		
+		body{
+			font-size: 14px;
+		}
+
+		.title{
+			font-size:14px;
+			margin-bottom: 5px;
+		}
+
+		.subtitle{
+			font-size:14px;
+			margin-bottom: 5px;
+		}
+
+		.btn{
+			font-size:12px;
+		}
+
+		h4{
+			font-size: 20px;
+		}
+
+		#tedxlogo{
+			width:100px;
+		}
+
+		.header{
+			height: 100%;
+		}
+
+		.carousel-block{
+			margin-top:40px;
+		}
+        
+	   .titreSection{
+           margin-top:40px;
+        }
+
+		.bandeaux-rouges{
+			height: 100px;
+			line-height: 100px;
+			width:100%;
+		}
+
+		#headertext{
+		 	height: 300px;
+		 	top: 0;
+		 	padding:5%;
+		}
+
+		.boutonun{
+			margin-bottom: 3px;
+		}
+
+
+	}
+
+	/* Small devices (landscape phones, 576px and up) */
+	@media (min-width: 576px) and (max-width: 767px) {
+		body{
+			font-size: 14px;
+		}
+
+		.title{
+			font-size:20px;
+			margin-bottom: 5px;
+		}        
+        
+        
+		.btn{
+			font-size:12px;
+		}
+
+		h4{
+			font-size: 20px;
+		}
+
+
+		#tedxlogo{
+			width:100px;
+		}
+
+		.header{
+			height: 100%;
+		}
+
+		.carousel-block{
+			margin-top:40px;
+		}
+        
+	   .titreSection{
+           margin-top:40px;
+        }
+
+		.bandeaux-rouges{
+			height: 100px;
+			line-height: 100px;
+			width:100%;
+		}
+
+		#headertext{
+		 	height: 300px;
+		 	top: 0;
+		 	padding:5%;
+		}
+
+		.boutonun{
+			margin-bottom: 3px;
+		}
+
+	}
+
+
+	/* Medium devices (tablets, 768px and up) */
+	@media (min-width: 768px) and (max-width: 991px) { 
+		body{
+			font-size: 14px;
+		}
+        
+		.title{
+			font-size:30px;
+			margin-bottom: 5px;
+		}         
+
+		.btn{
+			font-size:14px;
+		}
+
+		h4{
+			font-size: 20px;
+		}
+
+
+		#tedxlogo{
+			width:100px;
+		}
+
+		.header{
+			height: 100%;
+		}
+
+		.carousel-block{
+			margin-top:40px;
+		}
+
+	   .titreSection{
+           margin-top:40px;
+        }
+        
+		.bandeaux-rouges{
+			height: 100px;
+			line-height: 100px;
+			width:100%;
+		}
+
+		#headertext{
+		 	height: 300px;
+		 	top: 0;
+		 	padding:10%;
+		}
+
+
+	}
