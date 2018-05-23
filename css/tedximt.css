@@ -21,7 +21,7 @@
 
 	#tedxlogo{
 		margin-left: 10px;
-        width:300px;
+    width:300px;
 	}
 
     .navbar-nav{
@@ -29,6 +29,8 @@
         width: 100%;
         justify-content: flex-end;
         margin-right: 30px;
+				padding-top:8px;
+				padding-bottom:8px;
     }
 
     #billetterieBouton{
@@ -108,7 +110,7 @@
 
 	 .carousel-block {
 	 	position: relative;
-	 	margin-top:75px;
+	 	margin-top:64px;
 	 }
 
 
@@ -289,7 +291,7 @@
 		padding: 5%;
 	}
 
-	.partnerslogos{
+	.partnerss{
 		text-align: center;
 	}
 
@@ -380,7 +382,6 @@
 		position: relative;
 	}
 
-
 	/* RESPONSIVE */
 
 	/* Extra small devices (portrait phones, less than 576px) */
@@ -409,7 +410,7 @@
 		}
 
 		#tedxlogo{
-			width:100px;
+			width:160px;
 		}
 
 		.header{
@@ -465,7 +466,7 @@
 
 
 		#tedxlogo{
-			width:100px;
+			width:230px;
 		}
 
 		.header{
@@ -520,7 +521,7 @@
 
 
 		#tedxlogo{
-			width:100px;
+			width:230px;
 		}
 
 		.header{
