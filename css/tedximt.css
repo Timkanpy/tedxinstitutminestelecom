@@ -169,7 +169,7 @@
 	}
 
 	.card-deck{
-		padding: 5%;
+		padding: 2%;
 	}
 
 	#googlemaps{
@@ -298,10 +298,20 @@
 	}
 
     .devenirPartenaire{
-				text-align: center;
-        margin-bottom:100px;
-				margin-top:100px;
+			text-align: center;
+      margin-bottom:8%;
+			margin-top:8%;
+			margin-left:2%;
+			margin-right:2%;
     }
+
+		#visuelPartenaires{
+			display: block;
+			margin-left: auto;
+	 		margin-right: auto;
+			margin-bottom: 10%;
+			width:60%;
+		}
 
     .lienExterne{
         color:rgb(255,42,3);
@@ -377,13 +387,24 @@
 	.copyright{
 		font-size: 12px;
 		color:white;
-		position:absolute;
+		position:relative;
 		bottom:0%;
 		right:2%;
+		margin-left:2%;
+		padding-bottom: 1px;
+	}
+
+	.socialMedia{
+		text-align: center;
+		padding-top:20px;
+		padding-bottom: 10px;
+	}
+
+	.socialMediaLogo{
+		padding-left: 10px;
 	}
 
 	footer{
-		height: 50px;
 		background-color:black;
 		position: relative;
 	}
