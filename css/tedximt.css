@@ -355,22 +355,22 @@
 	}
 
     .blocabout{
-	 	position: relative;
-		text-align: center;
-		color:white;
-		background-image:url(../img/abouttedx.jpg);
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		padding:5%;
+		 	position: relative;
+			text-align: center;
+			color:white;
+			background-image:url(../img/abouttedx.jpg);
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			padding:5%;
     }
 
      .aboutTEDx{
-        margin-left:15%;
-        margin-right:15%;
-        text-align: justify;
-        text-justify: inter-word;
-	}
+      margin-left:15%;
+      margin-right:15%;
+      text-align: justify;
+      text-justify: inter-word;
+		}
 
 		#aboutTEDx1{
 				margin-top: 20px;
