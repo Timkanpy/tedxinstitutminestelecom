@@ -437,6 +437,25 @@
 			font-size:12px;
 		}
 
+		#countdown{
+			margin-top: 25px;
+			font-size: 100%;
+		}
+
+		#timer{
+			font-size: 150%;
+			margin-top: -15px;
+			margin-bottom: -20px;
+		}
+
+		.addressEvent{
+			font-size: 11px;
+			}
+
+		.btnSpeakers{
+			display:none;
+		}
+
 		h4{
 			font-size: 20px;
 		}
@@ -496,7 +515,6 @@
 			font-size: 20px;
 		}
 
-
 		#tedxlogo{
 			width:230px;
 		}
@@ -527,6 +545,14 @@
 
 		.boutonun{
 			margin-bottom: 3px;
+		}
+
+		#countdown{
+			margin-top: 25px;
+		}
+
+		#timer{
+			font-size: 200%;
 		}
 
 	}
