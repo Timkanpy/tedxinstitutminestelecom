@@ -396,18 +396,24 @@
 
     .error404{
 	text-align:center;
-	margin-bottom:8%;
-	margin-top:8%;
+	margin-bottom:5%;
+	margin-top:20%;
 	margin-left:2%;
 	margin-right:2%;
     }
+
+	#big404{
+		font-size:500%;
+		color:rgb(255,42,3);
+		margin-bottom:5%;
+	}
 
 	#visuel404{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 10%;
-		width:60%;
+		width:80%;
 	}
 
 
